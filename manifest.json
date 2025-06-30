@@ -1,0 +1,18 @@
+{
+	"manifest_version": 1,
+	"name": "Force Dark Mode Toggle",
+	"version": "1.0",
+	"permissions": [
+		"tabs",
+		"storage",
+		"activeTab",
+		"scripting"
+	],
+	"background": {
+		"service_worker": "code.js"
+	},
+	"action": {
+		"default_icon": "Moon_Icon.png",
+		"default_popup": "popup.html"
+	}
+}
