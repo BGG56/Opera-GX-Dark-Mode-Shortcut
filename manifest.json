@@ -1,18 +1,24 @@
 {
-	"manifest_version": 1,
+	"manifest_version": 3,
 	"name": "Force Dark Mode Toggle",
+	"description": "A Chrome extension to toggle Opera's dark mode on websites.",
 	"version": "1.0",
 	"permissions": [
 		"tabs",
-		"storage",
 		"activeTab",
-		"scripting"
+		"scripting",
+		"clipboardWrite",
+		"notifications"
+	],
+	"host_permissions": [
+		"<all_urls>"
 	],
 	"background": {
-		"service_worker": "code.js"
+		"service_worker": "background.js"
 	},
 	"action": {
 		"default_icon": "Moon_Icon.png",
-		"default_popup": "popup.html"
+		"default_title": "Toggle Dark Mode"
 	}
+	
 }
