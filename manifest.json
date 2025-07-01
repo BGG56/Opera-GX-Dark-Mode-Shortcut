@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
-	"name": "Force Dark Mode Toggle",
-	"description": "A Chrome extension to toggle Opera's dark mode on websites.",
+	"name": "Opera-GX-Dark-Mode-Shortcut",
+	"description": "A shortcut to Opera's dark mode.",
 	"version": "1.0",
 	"permissions": [
 		"tabs",
